@@ -27047,7 +27047,7 @@ function MdAutocomplete ($$mdSvgRegistry) {
 
       // Always set our tabindex of the autocomplete directive to -1, because our input
       // will hold the actual tabindex.
-      element.attr('tabindex', '-1');
+      //element.attr('tabindex', '-1');
 
       return '\
         <md-autocomplete-wrap\
